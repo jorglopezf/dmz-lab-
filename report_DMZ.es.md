@@ -57,11 +57,15 @@ ip nat inside source static 192.168.2.10 192.168.3.1
 
 ### 5. Verificaciones realizadas
 
-> Describe las pruebas y su resultado. Incluye capturas o salidas de comandos si se puede.
+> Pruebas y su resultado, se ncluye capturas.
 
 - `ping` desde PC_Internal al router: ✅
+- <img width="442" height="287" alt="pc interna" src="https://github.com/user-attachments/assets/0fc7e042-070a-4697-b5ee-0890c3af6e58" />
+
 - Acceso web desde PC_External: ✅
+- <img width="835" height="318" alt="pc external" src="https://github.com/user-attachments/assets/ef73acae-617b-473d-9ef3-1144854f0ef2" />
 - Bloqueo de acceso desde DMZ a LAN: ✅
+- <img width="831" height="314" alt="bloqueo" src="https://github.com/user-attachments/assets/ae0faba0-7b10-4d65-bd65-bc9cb783acdd" />
 
 
 ### 6. Conclusiones y recomendaciones
